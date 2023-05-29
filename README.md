@@ -1,70 +1,45 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React JS Landing Page Template
 
-## Available Scripts
+This landing page was developed using React JS, CSS,Bootstrap and Redux. The purpose of this application is to provide patients with easy access to hospital information and services online.
 
-In the project directory, you can run:
+# Functionalities
+* Display of hospital information.
+* make an online medical appointment.
+* take an online consultation with the doctor.
+* an overview of our services.
+* Our customers have seen it.
+* Similar questions.
+* Contact us.
+* find us.
 
-### `npm start`
+# Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This application consists of several components such as:
+* Header: for display of hospital logo and navigation menu
+* home: A motivational text about our abilities and our level compared to competitors. And some services such as 24/7 availability, teleconsultation... .
+* about us: A text that explains who we are and our history in the world of health.
+* Why us: A copy of our benefits and complementary services to the customer for their convenience
+* Get the app: Link to download our phone app
+* Find the best doctor you need: Find a doctor You need advanced options to help you choose the best doctors.
+* We’re here for you: Services provided with a variety of offerings.
+* Search for your nearest hospital: Find available doctors and make an appointment with them.
+* Testimonial: A few testimonials from our clients.
+* FAQs: Answer the questions we received.
+* Contact us: Send us a message, or call us.
+* Our location.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Screenshot from the website
+* [Screenshot from a phones.](https://drive.google.com/file/d/11UEMY5VmUpg5ZVDcp_kf_mPKGjacVoD5/view?usp=sharing)
+* [Screenshot from a tablets.](https://drive.google.com/file/d/1f0cE2h0e6WOApfElP62gn4bLe-qjyZtG/view?usp=sharing)
+* [Screenshot from a pc.](https://drive.google.com/file/d/1aP4RLQwy-8Um1FuKKA8xC_JBy7dL8VRz/view?usp=sharing)
 
-### `npm test`
+# Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.  Clone this repo on your computer
+2.  Run ``` npm install ``` to install all dependencies
+3.  Run the ``` npm start ``` command to start the application
 
-### `npm run build`
+# Developers
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The developers of this application is rebouli saif eddine.
