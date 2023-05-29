@@ -1,0 +1,278 @@
+
+@media (min-width:1000px) {
+    
+    #faq{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 100px;
+    }
+    span{
+        height: auto;
+        display: block;
+    }
+    #faq>div:nth-child(1){
+        width: 100%;
+    }
+    #faq>div:nth-child(2){
+        width: 60%;
+    }
+    #faq>div:nth-child(3){
+        width: 35%;
+    }
+    #faqdescriptiontitre{
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        width: fit-content;
+    }
+    #faqdescriptiontitre img{
+        height: 30px;
+        margin-right: 20px;
+    }
+    #faqimage > span:nth-child(1) img{
+        width: 100%;
+        height: auto;
+    }
+    #faqimagedescription{
+        background-color: #1678F2;
+        color: #ffffff;
+        padding: 10px 50px 10px 50px;
+        padding-bottom: 20px;
+    }
+    #faqimagedescription div{
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+    }
+    #faqimagedescription div a{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        padding-inline: 25px;
+        background-color: #ffffff;
+        color: #000000;
+        text-decoration: none;
+        font-weight: 400;
+    }
+    #faqimagedescription span{
+        height: 50px;
+        width: auto;
+    }
+    #faqimagedescription span img{
+        height: 100%;
+        width: auto;
+    }
+    #Accordion{
+        margin-top: 50px;
+    }
+    #Accordion span{
+        color: #F27219 !important;
+        margin-right: 5px;
+    }
+
+    .accordion-button:not(.collapsed){
+        background-color: #000000;
+        color: #ffffff;
+        box-shadow: none;
+    }
+    .accordion-button::after{
+        background-image: url(../image/Vectorplusnoir.png);
+    }
+    .accordion-button:not(.collapsed)::after{
+        background-image: url(../image/Vectorplus.png);
+    }
+    .accordion-item{
+        margin-top: 20px;
+        border-top: 1px solid #dee2e6 !important;
+    }
+    .accordion-item:first-of-type .accordion-button {
+        border-radius: 0px;
+    }
+}
+
+@media (min-width:768px) and (max-width:999px){
+    
+    #faq{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    span{
+        height: auto;
+        display: block;
+    }
+    #faq>div:nth-child(1){
+        width: 100%;
+    }
+    #faq>div:nth-child(2){
+        width: 60%;
+    }
+    #faq>div:nth-child(3){
+        width: 35%;
+    }
+    #faqdescriptiontitre{
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        width: fit-content;
+    }
+    #faqdescriptiontitre img{
+        height: 30px;
+        margin-right: 20px;
+    }
+    #faqimage > span:nth-child(1) img{
+        width: 100%;
+        height: auto;
+    }
+    #faqimagedescription{
+        background-color: #1678F2;
+        color: #ffffff;
+        padding: 10px ;
+        padding-bottom: 20px;
+    }
+    #faqimagedescription div{
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+    }
+    #faqimagedescription div a{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        padding-inline: 25px;
+        background-color: #ffffff;
+        color: #000000;
+        text-decoration: none;
+        font-weight: 400;
+    }
+    #faqimagedescription span{
+        height: 50px;
+        width: auto;
+    }
+    #faqimagedescription span img{
+        height: 100%;
+        width: auto;
+    }
+    #Accordion{
+        margin-top: 50px;
+    }
+    #Accordion span{
+        color: #F27219 !important;
+        margin-right: 5px;
+    }
+
+    .accordion-button:not(.collapsed){
+        background-color: #000000;
+        color: #ffffff;
+        box-shadow: none;
+    }
+    .accordion-button::after{
+        background-image: url(../image/Vectorplusnoir.png);
+    }
+    .accordion-button:not(.collapsed)::after{
+        background-image: url(../image/Vectorplus.png);
+    }
+    .accordion-item{
+        margin-top: 20px;
+        border-top: 1px solid #dee2e6 !important;
+    }
+    .accordion-item:first-of-type .accordion-button {
+        border-radius: 0px;
+    }
+}
+
+@media (max-width:767px) {
+    #faq{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    span{
+        height: auto;
+        display: block;
+    }
+    #faq>div:nth-child(1){
+        width: 100%;
+    }
+    #faq>div:nth-child(2){
+        width: 100%;
+    }
+    #faq>div:nth-child(3){
+        width: 100%;
+        margin-top: 10px;
+    }
+    #faqdescriptiontitre{
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        width: fit-content;
+    }
+    #faqdescriptiontitre img{
+        height: 30px;
+        margin-right: 20px;
+    }
+    #faqimage > span:nth-child(1) img{
+        width: 100%;
+        height: auto;
+    }
+    #faqimagedescription{
+        background-color: #1678F2;
+        color: #ffffff;
+        padding: 10px ;
+        padding-bottom: 20px;
+    }
+    #faqimagedescription div{
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+    }
+    #faqimagedescription div a{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        padding-inline: 25px;
+        background-color: #ffffff;
+        color: #000000;
+        text-decoration: none;
+        font-weight: 400;
+    }
+    #faqimagedescription span{
+        height: 50px;
+        width: auto;
+    }
+    #faqimagedescription span img{
+        height: 100%;
+        width: auto;
+    }
+    #Accordion{
+        margin-top: 50px;
+    }
+    #Accordion span{
+        color: #F27219 !important;
+        margin-right: 5px;
+    }
+
+    .accordion-button:not(.collapsed){
+        background-color: #000000;
+        color: #ffffff;
+        box-shadow: none;
+    }
+    .accordion-button::after{
+        background-image: url(../image/Vectorplusnoir.png);
+    }
+    .accordion-button:not(.collapsed)::after{
+        background-image: url(../image/Vectorplus.png);
+    }
+    .accordion-item{
+        margin-top: 20px;
+        border-top: 1px solid #dee2e6 !important;
+    }
+    .accordion-item:first-of-type .accordion-button {
+        border-radius: 0px;
+    }
+}
+
+

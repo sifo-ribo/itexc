@@ -1,0 +1,132 @@
+
+@media (min-width:1000px) {
+    #visits{
+        background-color: #F4F7FA;
+        margin-top: 50px;
+    }
+    #visits h1,#visits p{
+        text-align: center;
+    }
+    #visits h1{
+        color: #005EA3;
+    }
+    #description{
+        margin-inline: auto;
+        width: 50%;
+    }
+    #description a{
+        color: #000000;
+    }
+    #typevisits{
+        padding: 50px 0px 100px 0px;
+        padding-inline: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap:20px
+    }
+    .typevisit{
+        background-color: #ffffff;
+        width: 250px;
+        padding: 15px;
+        padding-top: 10px;
+        height: min-content;
+    }
+    .visittitre{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+    }
+    .visittitre h4{
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:768px) and (max-width:999px){
+    #visits{
+        background-color: #F4F7FA;
+        margin-top: 50px;
+        padding-top: 20px;
+    }
+    #visits h1,#visits p{
+        text-align: center;
+    }
+    #visits h1{
+        color: #005EA3;
+    }
+    #description{
+        margin-inline: auto;
+        width: 50%;
+    }
+    #description a{
+        color: #000000;
+    }
+    #typevisits{
+        padding: 50px 0px 100px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap:20px
+    }
+    .typevisit{
+        background-color: #ffffff;
+        width: 250px;
+        padding: 15px;
+        padding-top: 10px;
+        height: min-content;
+    }
+    .visittitre{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+    }
+    .visittitre h4{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:767px){
+    #visits{
+        background-color: #F4F7FA;
+        margin-top: 50px;
+        padding-top: 20px;
+    }
+    #visits h1,#visits p{
+        text-align: center;
+    }
+    #visits h1{
+        color: #005EA3;
+    }
+    #description{
+        margin-inline: auto;
+        width: 50%;
+    }
+    #description a{
+        color: #000000;
+    }
+    #typevisits{
+        padding: 50px 0px 100px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap:20px
+    }
+    .typevisit{
+        background-color: #ffffff;
+        width: 250px;
+        padding: 15px;
+        padding-top: 10px;
+        height: min-content;
+    }
+    .visittitre{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+    }
+    .visittitre h4{
+        margin-top: 10px;
+    }
+}

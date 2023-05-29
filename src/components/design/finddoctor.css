@@ -1,0 +1,114 @@
+
+@media (min-width:1000px) {
+    
+#finddoctor{
+    margin-top: 150px;
+    display: flex;
+    align-content: center;
+    padding-inline: 50px;
+    height: 500px;
+}
+#finddoctor img{
+    max-width: 100%;
+}
+#finddoctordescription {
+    padding: 80px 50px 0px 10%;
+    width: 85%;
+}
+#finddoctordescription   p{
+width: 90%;
+}
+#finddoctordescription  input[type=button]{
+margin-top: 10px;
+height: 40px;
+padding-inline: 30px;
+background-color: #ffffff;
+color: #005EA3 ;
+border: 1px solid #1678F2;
+cursor: pointer;
+}
+#finddoctordescription  input[type=button]:hover{
+    background-color: #005EA3;
+    color: #ffffff;
+    border: #000000;
+    transition: all 0.4s ease-in-out;
+}
+}
+
+@media (min-width:768px) and (max-width:999px){
+    
+    #finddoctor{
+        margin-top: 150px;
+        display: flex;
+        align-content: center;
+        padding-inline: 50px;
+        height: 300px;
+    }
+    #finddoctor img{
+        max-width: 100%;
+    }
+    #finddoctordescription {
+        width: 80%;
+    }
+    #finddoctordescription   p{
+    width: 90%;
+    }
+    #finddoctordescription  input[type=button]{
+    margin-top: 10px;
+    height: 40px;
+    padding-inline: 30px;
+    background-color: #ffffff;
+    color: #005EA3 ;
+    border: 1px solid #1678F2;
+    cursor: pointer;
+    }
+    #finddoctordescription  input[type=button]:hover{
+        background-color: #005EA3;
+        color: #ffffff;
+        border: #000000;
+        transition: all 0.4s ease-in-out;
+    }
+}
+@media (max-width:767px){
+    #finddoctor{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        padding-inline: 50px;
+        background-image: url('../image/finddoctor.png');
+        background-position: center;
+        background-size: cover;
+    }
+    #finddoctor img{
+        display: none;
+    }
+    #finddoctordescription {
+        text-align: center;
+        background-color: #fafafa;
+        opacity: 0.8;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    #finddoctordescription   p{
+    width: 90%;
+    }
+    #finddoctordescription  input[type=button]{
+    margin-top: 10px;
+    height: 40px;
+    padding-inline: 30px;
+    background-color: #ffffff;
+    color: #005EA3 ;
+    border: 1px solid #1678F2;
+    cursor: pointer;
+    }
+    #finddoctordescription  input[type=button]:hover{
+        background-color: #005EA3;
+        color: #ffffff;
+        border: #000000;
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+

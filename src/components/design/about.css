@@ -1,0 +1,256 @@
+
+@media (min-width:1000px) {
+    
+
+#about{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+    padding-bottom: 50px;
+}
+#about img,#avantages img{
+    max-width: 100%;
+}
+#about > div{
+    width: 50%;
+}
+#about > div  h1{
+    display: flex;
+    align-items: center;
+}
+#about > div  span{
+margin-left: 10px;
+}
+#about-description{
+    margin-left: 3%;
+}
+#about-description p{
+    width: 90%;
+    font-size: 18px;
+}
+#about-photos{
+    position: relative;
+    margin-left: 10%;
+    display: flex;
+}
+#about-photos >div{
+    position: absolute;
+    align-self: flex-end;
+}
+#about-photos >img:nth-child(2){
+    margin-left: 20%;
+    height: 98%;
+}
+#about-photos >div>div{
+background-color: #0B65A7;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px 0px 10px 20px;
+}
+#avantages{
+    display: flex;
+    height: 350px;
+    padding-inline:5%;
+}
+#avantages img{
+    height: 100%;
+}
+#avantages > div:nth-child(2){
+    margin-left: 100px;
+}
+#avantages > div h1{
+    display: flex;
+    align-items: center;
+}
+#avantages > div span{
+    margin-left: 5px;
+}
+#avantages > div p{
+    width: 80%;
+}
+#avantages > div ul{
+    list-style-image: url("../image/Vector.png");
+}
+#avantages > div ul span{
+    margin-left: 10px;
+}
+#avantages > div a{
+    color: #000000;
+}
+
+}
+
+@media (min-width:768px) and (max-width:999px){
+    
+
+#about{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+#about > div{
+    width: 45%;
+}
+#about img,#avantages img{
+    width: 100%;
+}
+#about > div  h1{
+    display: flex;
+    align-items: center;
+}
+#about > div  span{
+margin-left: 10px;
+}
+#about-description{
+    margin-left: 3%;
+}
+#about-description p{
+    width: 90%;
+    font-size: 18px;
+}
+#about-photos{
+    position: relative;
+    margin-left: 20px;
+    display: flex;
+}
+#about-photos >div{
+    position: absolute;
+    align-self: flex-end;
+}
+#about-photos >img:nth-child(2){
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+#about-photos >div>div{
+background-color: #0B65A7;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px 0px 10px 20px;
+}
+#avantages{
+    display: flex;
+    height: 350px;
+    padding-inline:5%;
+}
+#avantages img{
+    height: 100%;
+}
+#avantages>div{
+    width: 40%;
+}
+#avantages > div:nth-child(2){
+    margin-left: 50px;
+    width: 60%;
+}
+#avantages > div h1{
+    display: flex;
+    align-items: center;
+}
+#avantages > div span{
+    margin-left: 5px;
+}
+#avantages > div p{
+    width: 80%;
+}
+#avantages > div ul{
+    list-style-image: url("../image/Vector.png");
+}
+#avantages > div ul span{
+    margin-left: 10px;
+}
+#avantages > div a{
+    color: #000000;
+}
+
+}
+
+
+
+@media (max-width:767px){
+    
+#about{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-inline: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    
+    background-image: url('../image/aboutimage.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#about > div{
+    width: auto;
+}
+#about img,#avantages img{
+    width: 100%;
+}
+#about > div  h1{
+    display: flex;
+    align-items: center;
+}
+#about > div  span{
+margin-left: 10px;
+}
+#about-description{
+    margin-left: 3%;
+}
+#about-description p{
+    width: 90%;
+    font-size: 18px;
+    background-color: #fafafa;
+    opacity: 0.8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#about-photos >div{
+    display: none;
+}
+#about-photos >img:nth-child(2){
+    display: none;
+}
+#avantages{
+    padding-inline:10px;
+    padding-top: 20px;
+}
+#avantages img{
+    display: none;
+}
+#avantages>div{
+    padding: 10px;
+}
+
+#avantages > div h1{
+    text-align: center;
+    color: #0B65A7;
+    margin-bottom: 20px;
+}
+#avantages > div span{
+    margin-left: 5px;
+}
+#avantages > div p{
+    text-align: center;
+}
+#avantages > div ul{
+    list-style-image: url("../image/Vector.png");
+    margin-top: 40px;
+}
+#avantages > div ul span{
+    margin-left: 10px;
+}
+#avantages > div a{
+    color: #000000;
+}
+
+}

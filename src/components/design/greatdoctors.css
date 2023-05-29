@@ -1,0 +1,61 @@
+
+@media (min-width:1000px) {
+    #greatdoctors{
+        padding-top: 80px;
+        background-color: #EBEBEB;
+    }
+    #greatdoctors h1{
+        width: 40%;
+        text-align: center;
+        margin-inline: auto;
+    }
+    #greatdoctors p {
+        width: fit-content;
+        margin-inline: auto;
+    }
+    #greatdoctors img{
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) and (max-width:999px){
+    #greatdoctors{
+        padding-top: 80px;
+        background-color: #EBEBEB;
+    }
+    #greatdoctors h1{
+        width: 70%;
+        text-align: center;
+        margin-inline: auto;
+    }
+    #greatdoctors p {
+        width: fit-content;
+        margin-inline: auto;
+    }
+    #greatdoctors img{
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:767px){
+    #greatdoctors{
+        padding-top: 50px;
+        background-color: #EBEBEB;
+    }
+    #greatdoctors h1{
+        width: 70%;
+        text-align: center;
+        margin-inline: auto;
+    }
+    #greatdoctors p {
+        text-align: center;
+    }
+    #greatdoctors img{
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
